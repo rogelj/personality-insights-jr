@@ -6,6 +6,7 @@ declared-services:
 applications:
 - services:
   - personality-insights-service
-  name: personality-insights-java
+  name: personality-insights-jr
   path: webApp.war
   memory: 512M
+  host: personality-insights-jr
